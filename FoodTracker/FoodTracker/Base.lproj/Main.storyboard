@@ -114,11 +114,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="oCP-El-FkM">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="6Ov-9M-bre"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="dAv-HV-AzU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="EMF-bh-Yv5" id="2lD-nj-Kga"/>
                         <outlet property="photoImageView" destination="tCN-g7-O0Z" id="A8B-Yb-s19"/>
                         <outlet property="ratingControl" destination="iz6-sP-Bvn" id="ArD-gI-YeL"/>
+                        <outlet property="saveButton" destination="dAv-HV-AzU" id="LO2-8n-iPw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
