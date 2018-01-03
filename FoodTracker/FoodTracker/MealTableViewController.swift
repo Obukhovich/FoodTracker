@@ -197,7 +197,7 @@ class MealTableViewController: UITableViewController {
         }
         
         guard let meal7 = Meal(name: "Italian pasta", photo: photo7, rating: 5) else {
-            fatalError("Unable to instantiate meal6")
+            fatalError("Unable to instantiate meal7")
         }
         
         meals += [meal1, meal2, meal3, meal4, meal5, meal6, meal7]
